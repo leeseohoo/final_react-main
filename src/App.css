@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+} 
+.section {
+    padding-left: 222px;
+}
+/* 프로필 이미지 */
+.img {
+    justify-content: center;
+}
+.header { 
+    overflow: hidden;
+}
+.porfile-img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #2B3856;
+    transform: scale(1); /* 이미지 사이즈 고정 */
+    border-radius: 70%
+} 
+
+.menu-bar {
+    position: fixed;
+    border: 0;
+    background-color: #2B3856;
+    display: block;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/* 목차 */
+.index h3 {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* 목차 각 항목 반응형 커서 */
+.index h3:hover {
+    font-size: 1.1em;
+    opacity: 1;
+    text-shadow: 0.7px 0.7px 0.7px #000;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+}
+.main {
+    display: block; margin: 0px auto;
+}
+.contacts {
+    font-size: 15px;
+    opacity: 0.7;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+}
+.link {
+    font-size: 10px;
+    opacity: 0.7;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.thumb {
+    text-align: center;
+}
+.main-introduction {
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    opacity: 0.8;
+}
+
+/* sns 픽토그램 */
+.fa-brands {
+    color: black;
+    opacity: 0.4
+}
+.fa-solid {
+    color: black;
+    opacity: 0.4
+}
+.sns-pictogram i {
+    margin-right: 40px;
+}
+/* 픽토그램 반응형 커서 */
+.footer i:hover {
+    transform: translate(0, -3px);
+}
+
+.experience img {
+    margin-right: 7px;
+    border-image-outset: 10px;
+    align-items: center;
+    /* width: 150px;
+    height: 150px; */
+    transition: all 0.3s ease-in-out;
+}
+.experience{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 16px;
+}
+.row1, .row2, .row3
+{
+   display: inline-block;
+   padding-left: 90px;
+}
+.square {
+    border: 5px;
+    border-style: solid;
+    border-color: lightgray;
+    width: 150px;
+    height: 155px;
+    border-radius: 40px 40px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+}
+.square:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1); /* 크롬 */
+    -moz-transform: scale(1.1); /* 파이어폭스 */
+    -o-transform: scale(1.1); /* 오페라 */
+    z-index: 1;
+    align-items: center;
+    border: 2px solid #545455;
+    border-radius: 40px 40px;
+}
+.photo img {
+    width: 10px;
+}
+/* 커서 올릴 시 이미지 크게 */
+.photo:hover {
+    transform: scale(1.4);
+    -webkit-transform: scale(1.2); /* 크롬 */
+    -moz-transform: scale(1.2); /* 파이어폭스 */
+    -o-transform: scale(1.2); /* 오페라 */
+    z-index: 1;
+    align-items: center;
+}
+.photos:hover {
+    transform: scale(1.7);
+    -webkit-transform: scale(1.7); /* 크롬 */
+    -moz-transform: scale(1.7); /* 파이어폭스 */
+    -o-transform: scale(1.7); /* 오페라 */
+    z-index: 1;
+    align-items: center;
+}
+
+/* for layout */
+
+#data {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 23px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    width: 150px;
+    color: #2B3856;
+}
+
+#pw {
+    font-size: 18px;
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    width: 150px;
+    color: #545455;
+    margin-right: 10px;
+}
+#view {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    width: 150px;
+}
+
+/* 프로젝트 기간 */
+.year {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.major {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top:25px;
+    margin-bottom:25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.news-text {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+.news-img {
+    margin-bottom: 20px;
+}
+.news-img img {
+    width:150px;
+    height: 150px;
+    transition: all 0.3s ease-in-out;
+}
+/* 하단 코멘트 */
+.interests .comment {
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+}
+
+a{
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-decoration: none;
+    color:#262626;
+}
+
+.scroll { padding: 20px; width: 920px; text-align: right; }
+
+.footer { padding: 20px; width: 920px; }
+.foot { font-size: 16px; font-family: 'Oswald', sans-serif; color: #2B3856; font-weight: bold; text-align: center;}
+.back { 
+    text-align: right;
+    margin-right: 20px;
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    opacity: 0.8;
+}

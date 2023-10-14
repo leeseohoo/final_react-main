@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-label {
+    margin-right: 10px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 220px;
+    box-sizing: border-box;
+  }
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus {
+outline: none;
+border-color: #007bff;
+box-shadow: 0 0 5px #007bff;
+}  
+
+.save-button {
+    margin-bottom: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: 1;
+    border-color: #4caf50;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.enroll-button {
+    margin-bottom: 10px;
+    background-color: white;
+    color: #4caf50;
+    border: 1;
+    border-color: #4caf50;;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}  
+
+.info-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .info-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .sequence-number {
+    font-weight: bold;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  .delete-button {
+    background-color: white;
+    color: #007bff;
+    border: 1;
+    border-color: #007bff;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  .delete-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
