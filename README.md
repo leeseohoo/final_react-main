@@ -1,3 +1,5 @@
+졸프) 해경 정보 등록, 센서 연결(kafka), 각 해경 센서데이터 가시화
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
